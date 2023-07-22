@@ -54,7 +54,10 @@ const deleteContact = (nama)=>{
 
 //mengubah contacts
 const updateContacts = (contactBaru)=>{
-const contacts = loadContact();
+// const contacts = loadContact()
+
+
+
 
 //hilangkan contact lama yg namanya sama dengan oldnama
 const filteredContacts = contacts.filter((contact) => contact.lama !== contactBaru.oldNama); 
