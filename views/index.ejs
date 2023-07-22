@@ -1,0 +1,14 @@
+    <h1>Belajar Menggunakan Web Server </h1>
+    <H2>Halo <%= NAMA %></H2>
+    <h4>Daftar Mahasiswa</h4>
+    <% if (mahasiswa.length < 1 ){ %>
+        <p>Data Mahasisiswa Masih Kosong</p>
+    <% }else { %> 
+    <% mahasiswa.forEach(mhs => { %>
+        <ul>
+            <li>Nama :<%=mhs.nama%></li>
+            <li>Email:<%=mhs.email%> </li>
+        </ul>
+    <% }) %> 
+    <% } %>
+    

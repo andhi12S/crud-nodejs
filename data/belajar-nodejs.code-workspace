@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Jwt-Auth"
+		}
+	],
+	"settings": {
+		"liveServer.settings.proxy": {
+			"proxyUri": "http://127.0.0.1:5001"
+		}
+	}
+}
